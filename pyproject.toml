@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aragon-vote"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyyaml = "^6.0.1"
+ape-safe = "^0.8.2"
+eth-ape = "^0.8.10"
+web3 = "^6.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+rpc_url: https://mainnet.infura.io/v3/ce2ec74677734b1f9b43cd4696296ee0
+event: CastVote
+blacklist:
+  - '0x81d2B644b64296725A7De123B965b699a165aa79'
+vote_id: 176
+multisig_wallet_name: my-safe
+# for testing purpose we are using sepolia safe
+multisig_rpc_url: "https://eth-sepolia.public.blastapi.io"
