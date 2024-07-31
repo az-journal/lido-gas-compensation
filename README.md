@@ -13,20 +13,21 @@ This Python project is designed to compensate voters for gas costs incurred duri
 
 1. Clone this repository
 2. Install dependencies:
-poetry install
+
+`poetry install`
 
 ## Configuration
 
 Edit the `config.yaml` file to set:
 - RPC URL for Ethereum mainnet
 - Aragon vote ID to analyze
-- Blacklisted addresses (optional)
-- Multisig wallet details for compensation
+- Blacklisted addresses
+
 
 ## Usage
 
 Run the main script:
-python aragon_vote/main.py
+`python aragon_vote/main.py`
 
 This script will:
 1. Retrieve voter information for the specified Aragon vote
