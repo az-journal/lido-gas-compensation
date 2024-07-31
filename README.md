@@ -21,8 +21,8 @@ This Python project is designed to compensate voters for gas costs incurred duri
 Edit the `config.yaml` file to set:
 - RPC URL for Ethereum mainnet
 - Aragon vote ID to analyze
-- Blacklisted addresses (optional)
-- Multisig wallet details for compensation
+- Blacklisted addresses
+
 
 ## Usage
 
